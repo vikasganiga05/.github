@@ -1,26 +1,36 @@
-<!-- 
-Thanks for creating this pull request 🤗
+<!-- If your PR fixes an open issue, use `Closes #999` to link your PR with the issue. #999 stands for the issue number you are fixing -->
 
-Please make sure that the pull request is limited to one type (docs, feature, etc.) and keep it as small as possible. You can open multiple prs instead of opening a huge one.
+## Fixes Issue
+
+<!-- Remove this section if not applicable -->
+
+<!-- Example: Closes #31 -->
+
+## Changes proposed
+
+<!-- List all the proposed changes in your PR -->
+
+<!-- Mark all the applicable boxes. To mark the box as done follow the following conventions -->
+<!--
+[x] - Correct; marked as done
+[X] - Correct; marked as done
+
+[ ] - Not correct; marked as **not** done
 -->
 
-<!-- If this pull request closes an issue, please mention the issue number below -->
-Closes # <!-- Issue # here -->
+## Check List (Check all the applicable boxes) <!-- Follow the above conventions to check the box -->
 
-## 📑 Description
-<!-- Add a brief description of the pr -->
+- [ ] My code follows the code style of this project.
+- [ ] My change requires changes to the documentation.
+- [ ] I have updated the documentation accordingly.
+- [ ] All new and existing tests passed.
+- [ ] This PR does not contain plagiarized content.
+- [ ] The title of my pull request is a short description of the requested changes.
 
-<!-- You can also choose to add a list of changes and if they have been completed or not by using the markdown to-do list syntax
-- [ ] Not Completed
-- [x] Completed
--->
+## Screenshots
 
-## ✅ Checks
-<!-- Make sure your pr passes the CI checks and do check the following fields as needed - -->
-- [ ] My pull request adheres to the code style of this project
-- [ ] My code requires changes to the documentation
-- [ ] I have updated the documentation as required
-- [ ] All the tests have passed
+<!-- Add all the screenshots which support your changes -->
 
-## ℹ Additional Information
-<!-- Any additional information like breaking changes, dependencies added, screenshots, comparisons between new and old behavior, etc. -->
+## Note to reviewers
+
+<!-- Add notes to reviewers if applicable -->
