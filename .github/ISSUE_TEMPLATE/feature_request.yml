@@ -8,7 +8,7 @@ body:
         Please make sure this feature request hasn't been already submitted by someone by looking through other open/closed issues
   
   - type: textarea
-    id: description
+    id: feat-description
     attributes:
       label: Description
       description: A brief description of the feature or enhancement you propose, also include what you tried and what worked.
