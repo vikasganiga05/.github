@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this docs report 🤗
+        Thanks for taking the time to fill out this docs issue report 🤗
         Make sure there aren't any open/closed issues for this topic 😃
         
   - type: textarea
