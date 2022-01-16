@@ -18,6 +18,6 @@ This repository contains defaults for:
   - [`CONTRIBUTING.md`](CONTRIBUTING.md)
 
 
-[bug_report]:.github/ISSUE_TEMPLATE/bug_report.md
-[feature_request]:.github/ISSUE_TEMPLATE/feature_request.md
+[bug_report]:.github/ISSUE_TEMPLATE/bug_report.yml
+[feature_request]:.github/ISSUE_TEMPLATE/feature_request.yml
 [pull_request]:.github/PULL_REQUEST_TEMPLATE.md
