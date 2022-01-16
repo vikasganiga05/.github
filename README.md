@@ -14,6 +14,8 @@ This repository contains defaults for:
   - [`.github/PULL_REQUEST_TEMPLATE.md`][pull_request]
 - Code of Conduct
   - [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
+- Contribution guidelines
+  - [`CONTRIBUTING.md`](CONTRIBUTING.md)
 
 
 [bug_report]:.github/ISSUE_TEMPLATE/bug_report.md
