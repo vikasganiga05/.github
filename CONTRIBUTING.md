@@ -27,7 +27,7 @@ cd <github-repo-name>
 **4.** Set upstream command:
 
 ```bash
-git remote add upstream https://github.com/EddieHubCommunity/<github-repo-name>.git
+git remote add upstream https://github.com/vikasganiga05/<github-repo-name>.git
 ```
 
 **5.** Create a new branch:
