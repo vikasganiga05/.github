@@ -15,19 +15,19 @@
 **2.** Clone your new fork of the repository:
 
 ```bash
-git clone https://github.com/<your-github-username>/LinkFree
+git clone https://github.com/<your-github-username>/<github-repo-name>
 ```
 
 **3.** Navigate to the new project directory:
 
 ```bash
-cd LinkFree
+cd <github-repo-name>
 ```
 
 **4.** Set upstream command:
 
 ```bash
-git remote add upstream https://github.com/EddieHubCommunity/LinkFree.git
+git remote add upstream https://github.com/EddieHubCommunity/<github-repo-name>.git
 ```
 
 **5.** Create a new branch:
@@ -58,7 +58,7 @@ git merge upstream/main
 **8.** Stage your changes and commit:
 
 ```bash
-git add public
+git add .
 ```
 
 ```bash
@@ -73,11 +73,21 @@ git push origin YourBranchName
 
 **10.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
-**11.** **Congratulations!** You've made your first contribution to [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)! 🙌🏼
+**11.** **Congratulations!** You've made your first contribution to [**GITHUB-REPO-NAME**][contributors]! 🙌🏼
 
 **_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the LinkFree project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
 
 ## Style Guide for Git Commit Messages :memo:
+
+| Type(Scope)           | Description                                         |
+|-----------------------|-----------------------------------------------------|
+| `feat(optional):`     | A new feature                                       |
+| `fix(optional):`      | A bug fix                                           |
+| `docs(optional):`     | Documentation related changes                       |
+| `style(optional):`    | Everything related to styling                       |
+| `refactor(optional):` | A code that neither fix bug nor adds a feature      |
+| `test(optional):`     | Everything related to testing                       |
+| `chore(optional):`    | Updating build tasks, package manager, configs, etc |
 
 **How you can add more value to your contribution logs:**
 
@@ -89,17 +99,25 @@ git push origin YourBranchName
 - Do not end the subject line with a period.
 - Wrap the body at _72 characters_.
 - Use the body to explain the _what_, _why_, _vs_, and _how_.
-- Reference [Issues](https://github.com/EddieHubCommunity/LinkFree/issues) and [Pull Requests](https://github.com/EddieHubCommunity/LinkFree/pulls) liberally after the first line.
+- Reference [Issues][issue-list] and [Pull Requests][pull-request-list] liberally after the first line.
+
+Use this to start the message. Like if we added test for a function which checks leap year, we start with `test`. Then in short describe the work we did :point_down:
+
+```bash
+$ git commit -m "test: add unit test for leapYearCheck()"
+```
+
+For more detailed reference to the above points, refer here: https://chris.beams.io/posts/git-commit.
 
 ## 💥 Issues
 
-In order to discuss changes, you are welcome to [open an issue](https://github.com/EddieHubCommunity/LinkFree/issues/new/choose) about what you would like to contribute. Enhancements are always encouraged and appreciated.
+In order to discuss changes, you are welcome to [open an issue][new-issue] about what you would like to contribute. Enhancements are always encouraged and appreciated.
 
 ## All the best! 🥇
 
 <p align="center">
 
-[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/unnati914/Care4ther-)
+[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)][github-repo]
 
 </p>
 
@@ -108,4 +126,4 @@ In order to discuss changes, you are welcome to [open an issue](https://github.c
 [new-issue]: https://github.com/vikasganiga05/.github/issues/new/choose
 [issue-list]: https://github.com/vikasganiga05/.github/issues
 [pull-request-list]: https://github.com/vikasganiga05/.github/pulls
-
+[contributors]: https://github.com/vikasganiga05/.github/graphs/contributors
